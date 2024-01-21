@@ -1,0 +1,81 @@
+@media (max-width: 768px) {
+  .center {
+    margin: 5px 40px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu_mob_user {
+    display: block;
+    width: 23px;
+    height: 20.629px;
+    flex-shrink: 0;
+  }
+  .menu_mob {
+    display: block;
+  }
+  .menu_tel {
+    display: none;
+  }
+  .head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .section {
+    padding-left: 38px;
+    margin-bottom: 64px;
+    &_title {
+      font-size: 40px;
+      line-height: 125%;
+    }
+    &_top {
+      padding-right: 10px;
+    }
+  }
+  .box_img {
+    height: 400px;
+    width: 48%;
+    background-image: url("img/tablet.png");
+  }
+  .center_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .service {
+    width: 334px;
+    height: auto;
+    flex-shrink: 0;
+    padding: 40px 0px;
+    &_img {
+      width: 274px;
+      height: 180px;
+      flex-shrink: 0;
+    }
+    &_title {
+      padding: 0px 30px;
+    }
+    &_text {
+      padding: 0px 30px;
+    }
+    &_price {
+      display: flex;
+      width: 274px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    &_button {
+      display: flex;
+      width: 260px;
+      height: 48px;
+      padding: 0px 32px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+    }
+  }
+  .top {
+    justify-content: space-around;
+  }
+}
