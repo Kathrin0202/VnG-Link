@@ -9,3 +9,5 @@ https://www.figma.com/file/2lGR8z3lCbYXpYUy8IpzUE/Untitled?node-id=4%3A174&mode=
 Реализована логика открытия и закрытия фильтров.
 
 Стэк: HTML, CSS, SCSS, JS
+
+Ссылка на готовую страницу https://kathrin0202.github.io/VnG-Link/
